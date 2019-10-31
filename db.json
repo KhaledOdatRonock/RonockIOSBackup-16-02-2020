@@ -1,7 +1,63 @@
 {
-	"slice_details": {
-		"slice_img": "https://st4.depositphotos.com/11216536/23233/i/1600/depositphotos_232331770-stock-photo-christmas-promotion-flyer-with-pepperoni.jpg",
-		"slice_price": "16$",
-		"slice_name": "Pizza Margaretta with barbcue"
-	}
+  "status_code": 200,
+  "message": "Ads retrieved",
+  "data": {
+    "Ads": [
+      {
+        "id": 1,
+        "type": 0,
+        "discount": "30.0%",
+        "name": "Barbecue Sauce 1Liter",
+        "longitude": "35.8397931",
+        "latitude": "31.9740121",
+        "advertiser": "Carfoure"
+      },
+      {
+        "id": 2,
+        "type": 0,
+        "discount": "0.0%",
+        "name": "Sawer Sauce 1Liter",
+        "longitude": "35.8361442",
+        "latitude": "31.9750462",
+        "advertiser": "SamehMall"
+      },
+      {
+        "id": 3,
+        "type": 0,
+        "discount": "0.0%",
+        "name": "Ketchup 1Liter",
+        "longitude": "35.8361442",
+        "latitude": "31.9750462",
+        "advertiser": "Macdonald"
+      },
+      {
+        "id": 4,
+        "type": 0,
+        "discount": "0.0%",
+        "name": "Masterd Sauce 1Liter",
+        "longitude": "35.8361442",
+        "latitude": "31.9750462",
+        "advertiser": "FireFly Burger"
+      },
+      {
+        "id": 5,
+        "type": 0,
+        "discount": "25.0%",
+        "name": "HonyMastred Sauce 1Liter",
+        "longitude": "35.8361442",
+        "latitude": "31.9750462",
+        "advertiser": "KFC Amman"
+      },
+      {
+        "id": 6,
+        "type": 0,
+        "discount": "1.0%",
+        "name": "Mayones Sauce 1Liter",
+        "longitude": "35.8361442",
+        "latitude": "31.9750462",
+        "advertiser": "4Guys Burger"
+      },
+      
+    ]
+  }
 }
