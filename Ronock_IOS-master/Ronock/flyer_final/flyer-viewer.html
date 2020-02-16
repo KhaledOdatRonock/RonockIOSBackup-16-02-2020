@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="flyer-viewer.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=0">
+</head>
+
+<body>
+
+    <div class="row" id="main-flyer-container">
+
+        <div class="col-md-12 p-0">
+            <div id="seadragon-viewer" style="height: 100%;">
+            </div>
+    
+    
+            <div class="eflyer-controls">
+
+                <div>
+                    <a id="zoom-in" class="eflyer-control eflyer-control--zoom-in"><i class="fa fa-plus"></i></a>
+                </div>
+                <div>
+                    <a id="zoom-out" class="eflyer-control eflyer-control--zoom-out"><i class="fa fa-minus"></i></a>
+                </div>
+            </div>
+            <input hidden id="slice-id" value=""/>
+
+    <script src="./jquery-3.3.1.js"></script>
+    <script src="./bootstrap.js"></script>
+    
+    
+    <script>
+        $(document).ready(function () {
+            resizeDiv();
+        });
+
+        window.onresize = function (event) {
+            resizeDiv();
+        }
+
+        function resizeDiv() {
+            vpw = $(window).width();
+            vph = window.innerHeight;
+            console.log(vph, vpw);
+            $("#main-flyer-container").css( "height", vph + "px" );
+        }
+    </script>
+    <script src="openseadragon/openseadragon.min.js"></script>
+    <script src="openseadragon-canvas-overlay.js"></script>
+    <script src="https://partnerdev.blob.core.windows.net/ronockfiles/flyer-viewer-multi.js"></script>
+
+</body>
+
+</html>

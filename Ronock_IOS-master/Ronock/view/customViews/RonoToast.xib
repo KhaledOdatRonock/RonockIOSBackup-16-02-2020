@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RonoToast" customModule="Ronock" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="510" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button_compass.png" translatesAutoresizingMaskIntoConstraints="NO" id="UAM-nq-IeP">
+                    <rect key="frame" x="20" y="10" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="Y0a-QO-I5q"/>
+                        <constraint firstAttribute="height" constant="50" id="hDd-k3-AC6"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="clip" numberOfLines="2" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MYK-mk-TD3">
+                    <rect key="frame" x="78" y="10" width="384" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="4m4-Zp-pHN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knT-ih-9pS">
+                    <rect key="frame" x="470" y="25" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Xf6-cu-5Ce"/>
+                        <constraint firstAttribute="width" constant="20" id="h06-ij-XfZ"/>
+                    </constraints>
+                    <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" image="close_unfilled"/>
+                    <connections>
+                        <action selector="dismissRonoToast:" destination="iN0-l3-epB" eventType="touchUpInside" id="8zE-Bf-s9p"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.27058823529411763" green="0.10980392156862745" blue="0.3529411764705882" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="knT-ih-9pS" firstAttribute="leading" secondItem="MYK-mk-TD3" secondAttribute="trailing" constant="8" id="1r9-K7-vxD"/>
+                <constraint firstItem="knT-ih-9pS" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="3xE-VU-kaz"/>
+                <constraint firstItem="MYK-mk-TD3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="D8X-yg-Kea"/>
+                <constraint firstAttribute="bottom" secondItem="MYK-mk-TD3" secondAttribute="bottom" constant="10" id="Us4-O7-3Fx"/>
+                <constraint firstItem="UAM-nq-IeP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Wh5-LK-RXE"/>
+                <constraint firstItem="UAM-nq-IeP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="YlH-5r-owc"/>
+                <constraint firstAttribute="bottom" secondItem="UAM-nq-IeP" secondAttribute="bottom" constant="10" id="cgb-DZ-hVu"/>
+                <constraint firstItem="MYK-mk-TD3" firstAttribute="leading" secondItem="UAM-nq-IeP" secondAttribute="trailing" constant="8" id="d73-I7-rYm"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="knT-ih-9pS" secondAttribute="trailing" constant="20" id="j3N-tE-vDn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                    <color key="value" red="0.27058823529999998" green="0.10980392160000001" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                    <real key="value" value="0.80000000000000004"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                    <size key="value" width="3" height="3"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                    <real key="value" value="4"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="iconImage" destination="UAM-nq-IeP" id="rW6-7K-f7b"/>
+                <outlet property="messageLabel" destination="MYK-mk-TD3" id="lMf-rr-PcF"/>
+            </connections>
+            <point key="canvasLocation" x="152.17391304347828" y="-208.92857142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button_compass.png" width="40" height="40"/>
+        <image name="close_unfilled" width="512" height="512"/>
+    </resources>
+</document>

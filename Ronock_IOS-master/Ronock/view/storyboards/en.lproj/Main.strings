@@ -1,0 +1,117 @@
+
+/* Class = "UINavigationItem"; title = "Land Page"; ObjectID = "1KT-0g-pgJ"; */
+"1KT-0g-pgJ.title" = "Land Page";
+
+/* Class = "UILabel"; text = "Age"; ObjectID = "3gU-0n-dSq"; */
+"3gU-0n-dSq.text" = "Age";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "79a-be-CpA"; */
+"79a-be-CpA.title" = "Login";
+
+/* Class = "UILabel"; text = "45$"; ObjectID = "7yf-zt-aTn"; */
+"7yf-zt-aTn.text" = "45$";
+
+/* Class = "UILabel"; text = "5"; ObjectID = "9Et-Fj-L9n"; */
+"9Et-Fj-L9n.text" = "5";
+
+/* Class = "UIButton"; normalTitle = "Toggle Language"; ObjectID = "AJ3-ko-im3"; */
+"AJ3-ko-im3.normalTitle" = "Toggle Language";
+
+/* Class = "UIButton"; normalTitle = "Unclip"; ObjectID = "BLe-kQ-1yr"; */
+"BLe-kQ-1yr.normalTitle" = "Unclip";
+
+/* Class = "UIButton"; normalTitle = "Refresh Table"; ObjectID = "CIB-pQ-jEw"; */
+"CIB-pQ-jEw.normalTitle" = "Refresh Table";
+
+/* Class = "UIButton"; normalTitle = "CLICK HERE TO LOGIN"; ObjectID = "Cj7-de-WDW"; */
+"Cj7-de-WDW.normalTitle" = "CLICK HERE TO LOGIN";
+
+/* Class = "UINavigationItem"; title = "Main Screen"; ObjectID = "D0B-KI-nDx"; */
+"D0B-KI-nDx.title" = "Main Screen";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "FLu-dm-6BK"; */
+"FLu-dm-6BK.normalTitle" = "Logout";
+
+/* Class = "UILabel"; text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."; ObjectID = "FvR-Cb-hHd"; */
+"FvR-Cb-hHd.text" = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
+
+/* Class = "UIButton"; normalTitle = "Web Response Scenarios"; ObjectID = "Iig-CV-iXG"; */
+"Iig-CV-iXG.normalTitle" = "Web Response Scenarios";
+
+/* Class = "UIButton"; normalTitle = "Load Photo"; ObjectID = "Jid-si-oHM"; */
+"Jid-si-oHM.normalTitle" = "Load Photo";
+
+/* Class = "UIButton"; normalTitle = "Realm Example"; ObjectID = "LM9-oP-57B"; */
+"LM9-oP-57B.normalTitle" = "Realm Example";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LXn-oZ-Xuh"; */
+"LXn-oZ-Xuh.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Adveritments"; ObjectID = "N2L-jw-RaY"; */
+"N2L-jw-RaY.normalTitle" = "Adveritments";
+
+/* Class = "UIBarButtonItem"; title = "List"; ObjectID = "Nur-Rd-ecM"; */
+"Nur-Rd-ecM.title" = "List";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "RRF-7r-md6"; */
+"RRF-7r-md6.text" = "Label";
+
+/* Class = "UITableViewController"; title = "Posts"; ObjectID = "SSu-bW-XrI"; */
+"SSu-bW-XrI.title" = "Posts";
+
+/* Class = "UILabel"; text = "Snacks pacakge"; ObjectID = "Sle-Bn-vmV"; */
+"Sle-Bn-vmV.text" = "Snacks pacakge";
+
+/* Class = "UINavigationItem"; title = "Photo"; ObjectID = "SqQ-yc-fUa"; */
+"SqQ-yc-fUa.title" = "Photo";
+
+/* Class = "UIButton"; normalTitle = "Stackovrflow Posts"; ObjectID = "TOU-6L-ckJ"; */
+"TOU-6L-ckJ.normalTitle" = "Stackovrflow Posts";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YyM-0G-Rvq"; */
+"YyM-0G-Rvq.text" = "Label";
+
+/* Class = "UILabel"; text = "Name of advirtiser"; ObjectID = "Z41-5J-qdr"; */
+"Z41-5J-qdr.text" = "Name of advirtiser";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "b8B-0l-46t"; */
+"b8B-0l-46t.title" = "Profile";
+
+/* Class = "UIButton"; normalTitle = "Azure Map View"; ObjectID = "daf-uQ-Pv7"; */
+"daf-uQ-Pv7.normalTitle" = "Azure Map View";
+
+/* Class = "UIButton"; normalTitle = "Add to DB"; ObjectID = "eMM-xM-Wpl"; */
+"eMM-xM-Wpl.normalTitle" = "Add to DB";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gJ8-5C-4ub"; */
+"gJ8-5C-4ub.text" = "Label";
+
+/* Class = "UILabel"; text = "FirstName"; ObjectID = "ggd-Xg-cgb"; */
+"ggd-Xg-cgb.text" = "FirstName";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kKo-F7-aWB"; */
+"kKo-F7-aWB.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Todo List"; ObjectID = "mvW-cT-Wkc"; */
+"mvW-cT-Wkc.normalTitle" = "Todo List";
+
+/* Class = "UIButton"; normalTitle = "Edit My Profile"; ObjectID = "nVc-aI-l4J"; */
+"nVc-aI-l4J.normalTitle" = "Edit My Profile";
+
+/* Class = "UIButton"; normalTitle = "FlyerViewer"; ObjectID = "o0j-2t-UdQ"; */
+"o0j-2t-UdQ.normalTitle" = "Flyer List";
+
+/* Class = "UILabel"; text = "Name of Ad"; ObjectID = "p5M-kZ-rxU"; */
+"p5M-kZ-rxU.text" = "Name of Ad";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "phr-CD-tnj"; */
+"phr-CD-tnj.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Goto Profile"; ObjectID = "s2d-HX-kZz"; */
+"s2d-HX-kZz.normalTitle" = "Goto Profile";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "yS4-Bh-MaN"; */
+"yS4-Bh-MaN.text" = "Title";
+
+/* Class = "UIBarButtonItem"; title = "Toggle"; ObjectID = "yTa-wd-tjm"; */
+"yTa-wd-tjm.title" = "Toggle";

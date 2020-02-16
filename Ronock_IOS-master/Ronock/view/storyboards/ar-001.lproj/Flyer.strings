@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "45$"; ObjectID = "7yf-zt-aTn"; */
+"7yf-zt-aTn.text" = "45$";
+
+/* Class = "UIButton"; normalTitle = "Unclip"; ObjectID = "BLe-kQ-1yr"; */
+"BLe-kQ-1yr.normalTitle" = "Unclip";
+
+/* Class = "UILabel"; text = "Snacks pacakge"; ObjectID = "Sle-Bn-vmV"; */
+"Sle-Bn-vmV.text" = "Snacks pacakge";
+
+/* Class = "UILabel"; text = "This is Header"; ObjectID = "XZM-PE-Ugv"; */
+"XZM-PE-Ugv.text" = "This is Header";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "bYR-IP-rPQ"; */
+"bYR-IP-rPQ.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gXN-TL-XKf"; */
+"gXN-TL-XKf.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Flyers"; ObjectID = "rwX-m1-9LO"; */
+"rwX-m1-9LO.title" = "Flyers";
+
+/* Class = "UIBarButtonItem"; title = "Toggle"; ObjectID = "yTa-wd-tjm"; */
+"yTa-wd-tjm.title" = "Toggle";

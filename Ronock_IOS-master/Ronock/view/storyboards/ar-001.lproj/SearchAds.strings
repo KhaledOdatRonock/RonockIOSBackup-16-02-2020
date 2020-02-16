@@ -1,0 +1,51 @@
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "1AI-FU-KlI"; */
+"1AI-FU-KlI.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DtT-BU-bkq"; */
+"DtT-BU-bkq.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "FzK-4g-RJL"; */
+"FzK-4g-RJL.text" = "Label";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "Grg-FL-ReG"; */
+"Grg-FL-ReG.text" = "About";
+
+/* Class = "UILabel"; text = "Name of Ad"; ObjectID = "LML-fI-KTH"; */
+"LML-fI-KTH.text" = "Name of Ad";
+
+/* Class = "UILabel"; text = "Nothing To Show  Enter few words to search"; ObjectID = "PES-Ho-4B2"; */
+"PES-Ho-4B2.text" = "Nothing To Show  Enter few words to search";
+
+/* Class = "UISearchBar"; placeholder = "Search ..."; ObjectID = "Prz-5d-fLV"; */
+"Prz-5d-fLV.placeholder" = "Search ...";
+
+/* Class = "UILabel"; text = "1800"; ObjectID = "SCI-gQ-l0H"; */
+"SCI-gQ-l0H.text" = "1800";
+
+/* Class = "UISearchBar"; placeholder = "Enter Location Here"; ObjectID = "XHO-rD-qpC"; */
+"XHO-rD-qpC.placeholder" = "Enter Location Here";
+
+/* Class = "UILabel"; text = "Amman - Jordan"; ObjectID = "Xdo-NX-ne9"; */
+"Xdo-NX-ne9.text" = "Amman - Jordan";
+
+/* Class = "UILabel"; text = "Name of advirtiser"; ObjectID = "bJ1-Fk-aha"; */
+"bJ1-Fk-aha.text" = "Name of advirtiser";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "bdo-UW-9Zw"; */
+"bdo-UW-9Zw.title" = "Search";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kHz-ZX-6Gb"; */
+"kHz-ZX-6Gb.text" = "Label";
+
+/* Class = "UILabel"; text = "Advertiser Profile"; ObjectID = "n8F-o3-qKN"; */
+"n8F-o3-qKN.text" = "Advertiser Profile";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "sjE-n7-LKx"; */
+"sjE-n7-LKx.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "Follow"; ObjectID = "tmL-gH-gtK"; */
+"tmL-gH-gtK.normalTitle" = "Follow";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zK6-Dl-SWe"; */
+"zK6-Dl-SWe.text" = "Label";

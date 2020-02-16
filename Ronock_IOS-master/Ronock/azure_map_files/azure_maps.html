@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ronock - Azure Maps</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="This sample shows how to load the map and specify options at the same time." />
+    <meta name="keywords" content="map, gis, API, SDK, multiple" />
+    <meta name="author" content="Microsoft Azure Maps" />
+
+    <!-- Add references to the Atlas Map control JavaScript and CSS files. -->
+    <link rel="stylesheet" href="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css" type="text/css" />
+    <script src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js"></script>
+    <style>
+        html, body {
+            margin: 0;
+        }
+
+        #myMap {
+            height: 100vh;
+            width: 100vw;
+        }
+    </style>
+
+    <script type='text/javascript'>
+        var map;
+        function GetMap() {
+
+        	var windowHeight = window.screen.height;
+        	document.getElementById('myMap').style.height = windowHeight + 'px';
+            //Initialize a map instance.
+            map = new atlas.Map('myMap', {
+                center: [-122.33, 47.6],
+                zoom: 12,
+                view: 'Auto',
+				
+				//Add your Azure Maps subscription key to the map SDK. Get an Azure Maps key at https://azure.com/maps
+                authOptions: {
+                    authType: 'subscriptionKey',
+                    subscriptionKey: 'g-u-9lTxyVGtIJnFI8v8P9VFooh3m2wxXGZyqnQOjJA'
+                }
+            });
+            //Wait until the map resources are ready.
+            map.events.add('ready', function () {
+                           setInitialLocation();
+            });
+            
+            var setInitialLocation = function(){
+                var dataSource = new atlas.source.DataSource();
+                               map.sources.add(dataSource);
+                               var point = new atlas.Shape(new atlas.data.Point([35.8388919, 31.9628626]));
+                               //Add the symbol to the data source.
+                               dataSource.add([point]);
+                               
+                               /* Gets co-ordinates of clicked location*/
+                               map.events.add('click', function(e){
+                                 /* Update the position of the point feature to where the user clicked on the map. */
+                                 point.setCoordinates(e.position);
+                               });
+                               
+                               //Create a symbol layer using the data source and add it to the map
+                               map.layers.add(new atlas.layer.SymbolLayer(dataSource, null));
+                                          
+                                          var camera = map.getCamera();
+                                          if (camera) {
+                                              var view = {
+                                                  zoom: 10,
+                                                  pitch: 0,
+                                                  bearing: 0,
+                                          center: [35.8388919, 31.9628626]
+                                              };
+                                          map.setCamera(view);
+                                          }
+            }
+        }
+    </script>
+</head>
+<body onload="GetMap()">
+    <div id="myMap" style="position:relative;width:100%;min-width:290px;"></div>
+
+</body>
+</html>

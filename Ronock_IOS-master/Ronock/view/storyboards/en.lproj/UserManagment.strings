@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "4RF-yR-Rkp"; */
+"4RF-yR-Rkp.normalTitle" = "Save";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "ASR-49-hbd"; */
+"ASR-49-hbd.normalTitle" = "Skip";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "U0d-Hu-v9E"; */
+"U0d-Hu-v9E.text" = "Label";
+
+/* Class = "UILabel"; text = "Why Login?"; ObjectID = "VDM-V5-oUL"; */
+"VDM-V5-oUL.text" = "Why Login?";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "ajp-7q-Gku"; */
+"ajp-7q-Gku.title" = "Login";
+
+/* Class = "UILabel"; text = "Simple, it`s how you get the most out of features from Ronock, Ooh, and it`s free"; ObjectID = "gvA-cW-9Bx"; */
+"gvA-cW-9Bx.text" = "Simple, it`s how you get the most out of features from Ronock, Ooh, and it`s free";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "h0f-RJ-gBL"; */
+"h0f-RJ-gBL.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "kdh-Ol-bCt"; */
+"kdh-Ol-bCt.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "p5J-J6-aof"; */
+"p5J-J6-aof.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "CLICK HERE TO LOGIN"; ObjectID = "zOt-ix-GpW"; */
+"zOt-ix-GpW.normalTitle" = "CLICK HERE TO LOGIN";

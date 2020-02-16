@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>notificationHubKey</key>
+	<string>GtGZ9Oz57XHfCV637Xmi8JzlSJS2r8by4V9WQxu6sNw=</string>
+	<key>notificationHubKeyName</key>
+	<string>DefaultListenSharedAccessSignature</string>
+	<key>notificationHubName</key>
+	<string>RonockNotificationHub</string>
+	<key>notificationHubNamespace</key>
+	<string>RonockNotificationHubNS</string>
+</dict>
+</plist>

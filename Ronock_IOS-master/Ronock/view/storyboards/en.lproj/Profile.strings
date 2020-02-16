@@ -1,0 +1,132 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2cb-qE-Rdo"; */
+"2cb-qE-Rdo.text" = "Label";
+
+/* Class = "UILabel"; text = "Country | Jordan"; ObjectID = "32b-Qg-wVF"; */
+"32b-Qg-wVF.text" = "Country | Jordan";
+
+/* Class = "UILabel"; text = "Notifications Blocklist"; ObjectID = "5m7-dQ-qOK"; */
+"5m7-dQ-qOK.text" = "Notifications Blocklist";
+
+/* Class = "UILabel"; text = "Stores"; ObjectID = "807-Pk-b3E"; */
+"807-Pk-b3E.text" = "Stores";
+
+/* Class = "UISegmentedControl"; BEp-v5-bin.segmentTitles[0] = "Ads"; ObjectID = "BEp-v5-bin"; */
+"BEp-v5-bin.segmentTitles[0]" = "Ads";
+
+/* Class = "UISegmentedControl"; BEp-v5-bin.segmentTitles[1] = "Coupons"; ObjectID = "BEp-v5-bin"; */
+"BEp-v5-bin.segmentTitles[1]" = "Coupons";
+
+/* Class = "UISegmentedControl"; BEp-v5-bin.segmentTitles[2] = "Clippings"; ObjectID = "BEp-v5-bin"; */
+"BEp-v5-bin.segmentTitles[2]" = "Clippings";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "BXI-5T-Bpk"; */
+"BXI-5T-Bpk.text" = "4";
+
+/* Class = "UILabel"; text = "Notifications Preferences"; ObjectID = "CVa-9S-gbd"; */
+"CVa-9S-gbd.text" = "Notifications Preferences";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "FSz-8R-8Ml"; */
+"FSz-8R-8Ml.text" = "Label";
+
+/* Class = "UITableViewSection"; headerTitle = "General Settings"; ObjectID = "FzH-ts-TMu"; */
+"FzH-ts-TMu.headerTitle" = "General Settings";
+
+/* Class = "UITextField"; placeholder = "John Smith"; ObjectID = "LdW-IT-3aa"; */
+"LdW-IT-3aa.placeholder" = "John Smith";
+
+/* Class = "UILabel"; text = "Allow Push Notifications"; ObjectID = "Q8O-Ql-K8Y"; */
+"Q8O-Ql-K8Y.text" = "Allow Push Notifications";
+
+/* Class = "UILabel"; text = "Just Now"; ObjectID = "RY9-P1-7lL"; */
+"RY9-P1-7lL.text" = "Just Now";
+
+/* Class = "UILabel"; text = "Show Ronock on startup"; ObjectID = "STV-om-euW"; */
+"STV-om-euW.text" = "Show Ronock on startup";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "T40-T6-3UU"; */
+"T40-T6-3UU.placeholder" = "Phone Number";
+
+/* Class = "UILabel"; text = "Last seen 15 minutes ago"; ObjectID = "V62-qU-ume"; */
+"V62-qU-ume.text" = "Last seen 15 minutes ago";
+
+/* Class = "UILabel"; text = "123"; ObjectID = "Wz1-qE-jjM"; */
+"Wz1-qE-jjM.text" = "123";
+
+/* Class = "UILabel"; text = "frfgd"; ObjectID = "ZYp-Li-pg3"; */
+"ZYp-Li-pg3.text" = "frfgd";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "a7E-08-tdQ"; */
+"a7E-08-tdQ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bkW-6Y-9FI"; */
+"bkW-6Y-9FI.text" = "Label";
+
+/* Class = "UILabel"; text = "Brands"; ObjectID = "daA-hw-zt0"; */
+"daA-hw-zt0.text" = "Brands";
+
+/* Class = "UILabel"; text = "My Favorites"; ObjectID = "fLB-K4-LB5"; */
+"fLB-K4-LB5.text" = "My Favorites";
+
+/* Class = "UILabel"; text = "Just Now"; ObjectID = "g0i-BX-E7Q"; */
+"g0i-BX-E7Q.text" = "Just Now";
+
+/* Class = "UITextField"; placeholder = "MM / DD / YYY"; ObjectID = "gLb-yA-0G6"; */
+"gLb-yA-0G6.placeholder" = "MM / DD / YYY";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "gZQ-Nm-KRD"; */
+"gZQ-Nm-KRD.text" = "Language";
+
+/* Class = "UILabel"; text = "Intrests"; ObjectID = "goQ-XK-K39"; */
+"goQ-XK-K39.text" = "Intrests";
+
+/* Class = "UITabBarItem"; title = "Coupons"; ObjectID = "hD5-hY-BfS"; */
+"hD5-hY-BfS.title" = "Coupons";
+
+/* Class = "UITextField"; text = "3"; ObjectID = "hTI-ek-kv6"; */
+"hTI-ek-kv6.text" = "3";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "j8X-Pf-r5n"; */
+"j8X-Pf-r5n.title" = "Save";
+
+/* Class = "UISegmentedControl"; ja6-Nh-8vj.segmentTitles[0] = "Male"; ObjectID = "ja6-Nh-8vj"; */
+"ja6-Nh-8vj.segmentTitles[0]" = "Male";
+
+/* Class = "UISegmentedControl"; ja6-Nh-8vj.segmentTitles[1] = "Female"; ObjectID = "ja6-Nh-8vj"; */
+"ja6-Nh-8vj.segmentTitles[1]" = "Female";
+
+/* Class = "UILabel"; text = "gfdgdf"; ObjectID = "kei-O2-HwS"; */
+"kei-O2-HwS.text" = "gfdgdf";
+
+/* Class = "UILabel"; text = "19\nFollowings"; ObjectID = "nqh-Ka-FyY"; */
+"nqh-Ka-FyY.text" = "19\nFollowings";
+
+/* Class = "UITableViewSection"; headerTitle = "Ronock Assistant Settings"; ObjectID = "o2r-N9-WIu"; */
+"o2r-N9-WIu.headerTitle" = "Ronock Assistant Settings";
+
+/* Class = "UILabel"; text = "14K Likes"; ObjectID = "qRI-nn-KPO"; */
+"qRI-nn-KPO.text" = "14K Likes";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qih-1d-HqR"; */
+"qih-1d-HqR.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "smG-mK-YU5"; */
+"smG-mK-YU5.text" = "Label";
+
+/* Class = "UITableViewSection"; headerTitle = "Notification Settings"; ObjectID = "tXl-Iz-26F"; */
+"tXl-Iz-26F.headerTitle" = "Notification Settings";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "vEW-sB-jy5"; */
+"vEW-sB-jy5.title" = "Settings";
+
+/* Class = "UITextField"; placeholder = "Email@domain.com"; ObjectID = "vHg-Lq-3fh"; */
+"vHg-Lq-3fh.placeholder" = "Email@domain.com";
+
+/* Class = "UILabel"; text = "Notifications Frequency"; ObjectID = "x2L-BZ-B8r"; */
+"x2L-BZ-B8r.text" = "Notifications Frequency";
+
+/* Class = "UILabel"; text = "56"; ObjectID = "xgK-7x-tCo"; */
+"xgK-7x-tCo.text" = "56";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "zAu-Jw-7VC"; */
+"zAu-Jw-7VC.title" = "Profile";

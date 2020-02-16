@@ -1,0 +1,311 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - AppCenter (2.5.3):
+    - AppCenter/Analytics (= 2.5.3)
+    - AppCenter/Crashes (= 2.5.3)
+  - AppCenter/Analytics (2.5.3):
+    - AppCenter/Core
+  - AppCenter/Core (2.5.3)
+  - AppCenter/Crashes (2.5.3):
+    - AppCenter/Core
+  - CropViewController (2.5.2)
+  - Firebase/Analytics (6.15.0):
+    - Firebase/Core
+  - Firebase/Core (6.15.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.2.1)
+  - Firebase/CoreOnly (6.15.0):
+    - FirebaseCore (= 6.6.0)
+  - FirebaseAnalytics (6.2.1):
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstanceID (~> 4.3)
+    - GoogleAppMeasurement (= 6.2.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - FirebaseCore (6.6.0):
+    - FirebaseCoreDiagnostics (~> 1.2)
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+  - FirebaseCoreDiagnostics (1.2.0):
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleDataTransportCCTSupport (~> 1.3)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+    - nanopb (~> 0.3.901)
+  - FirebaseCoreDiagnosticsInterop (1.2.0)
+  - FirebaseInstallations (1.1.0):
+    - FirebaseCore (~> 6.6)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (4.3.0):
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstallations (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+  - GoogleAppMeasurement (6.2.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - GoogleDataTransport (3.3.0)
+  - GoogleDataTransportCCTSupport (1.3.0):
+    - GoogleDataTransport (~> 3.3)
+    - nanopb (~> 0.3.901)
+  - GoogleMaps (3.7.0):
+    - GoogleMaps/Maps (= 3.7.0)
+  - GoogleMaps/Base (3.7.0)
+  - GoogleMaps/Maps (3.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.7.0):
+    - GoogleMaps/Base (= 3.7.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.5.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.5.0)
+  - GoogleUtilities/Logger (6.5.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.5.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.5.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.5.0)"
+  - GoogleUtilities/Reachability (6.5.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.5.0):
+    - GoogleUtilities/Logger
+  - IHProgressHUD (0.1.4)
+  - ImageSlideshow (1.8.3):
+    - ImageSlideshow/Core (= 1.8.3)
+  - ImageSlideshow/Alamofire (1.8.3):
+    - AlamofireImage (~> 3.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.8.3)
+  - JWTDecode (2.4.1)
+  - lottie-ios (3.1.5)
+  - MarqueeLabel (4.0.2)
+  - MaterialComponents/AnimationTiming (102.0.0)
+  - MaterialComponents/Buttons (102.0.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Cards (102.0.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Icons/ic_check_circle
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+  - MaterialComponents/Dialogs (102.0.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Elevation (102.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (102.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Application (102.0.0)
+  - MaterialComponents/private/Color (102.0.0)
+  - MaterialComponents/private/Icons/Base (102.0.0)
+  - MaterialComponents/private/Icons/ic_check_circle (102.0.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/KeyboardWatcher (102.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (102.0.0)
+  - MaterialComponents/Ripple (102.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (102.0.0)
+  - MaterialComponents/ShadowLayer (102.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (102.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Typography (102.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - MOLH (1.1.2)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - NBBottomSheet (1.2.0)
+  - NotificationBannerSwift (3.0.2):
+    - MarqueeLabel (~> 4.0.0)
+    - SnapKit (~> 5.0.0)
+  - Pageboy (3.5.0)
+  - PagingTableView (0.1.0)
+  - PMAlertController (4.0.0)
+  - PromisesObjC (1.2.8)
+  - PullableSheet (0.1.0)
+  - Realm (4.3.1):
+    - Realm/Headers (= 4.3.1)
+  - Realm/Headers (4.3.1)
+  - RealmSwift (4.3.1):
+    - Realm (= 4.3.1)
+  - ScrollingStackContainer (0.5.0)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+  - SelectionDialog (3.0.0)
+  - SnapKit (5.0.1)
+  - SRCountdownTimer (1.1)
+  - SwiftRater (1.6.0)
+  - SwiftyGif (5.2.0)
+  - "UIImageView+Extension (0.2.6)"
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AppCenter
+  - CropViewController
+  - Firebase/Analytics
+  - GoogleMaps
+  - GooglePlaces
+  - IHProgressHUD
+  - ImageSlideshow
+  - ImageSlideshow/Alamofire
+  - JWTDecode
+  - lottie-ios
+  - MaterialComponents/Cards
+  - MaterialComponents/Dialogs
+  - MOLH
+  - NBBottomSheet
+  - NotificationBannerSwift
+  - Pageboy
+  - PagingTableView
+  - PMAlertController
+  - PullableSheet
+  - RealmSwift
+  - ScrollingStackContainer
+  - SDWebImage (~> 4.0)
+  - SelectionDialog
+  - SRCountdownTimer
+  - SwiftRater
+  - SwiftyGif
+  - "UIImageView+Extension"
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - AppCenter
+    - CropViewController
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - IHProgressHUD
+    - ImageSlideshow
+    - JWTDecode
+    - lottie-ios
+    - MarqueeLabel
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - MOLH
+    - nanopb
+    - NBBottomSheet
+    - NotificationBannerSwift
+    - Pageboy
+    - PagingTableView
+    - PMAlertController
+    - PromisesObjC
+    - PullableSheet
+    - Realm
+    - RealmSwift
+    - ScrollingStackContainer
+    - SDWebImage
+    - SelectionDialog
+    - SnapKit
+    - SRCountdownTimer
+    - SwiftRater
+    - SwiftyGif
+    - "UIImageView+Extension"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  AppCenter: 765ff38c4d360fc5ec61b61a8be24d74cd6d4d83
+  CropViewController: 1aac40093c5739e60d992b04724a55d12a689a4c
+  Firebase: 5d77105d9740a07ca6b16927ca971db7e860faaf
+  FirebaseAnalytics: e83e64b1231dedcd9ddd4bdecd9bcfd6ba341679
+  FirebaseCore: 4aeb81ff53dcd9a3634ca725dc1fb8c2a4622046
+  FirebaseCoreDiagnostics: 5e78803ab276bc5b50340e3c539c06c3de35c649
+  FirebaseCoreDiagnosticsInterop: 296e2c5f5314500a850ad0b83e9e7c10b011a850
+  FirebaseInstallations: 575cd32f2aec0feeb0e44f5d0110a09e5e60b47b
+  FirebaseInstanceID: 6668efc1655a4052c083f287a7141f1ead12f9c2
+  GoogleAppMeasurement: a08a43b8677b95ed51fcef880e36737334d804fd
+  GoogleDataTransport: 574a983e829327d7c18f2627f65d9e80164ea8a4
+  GoogleDataTransportCCTSupport: cad3cd6cdbdbad6b5c2c9206ec413402755faaaa
+  GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
+  GooglePlaces: a62077320f9d64239245af63aa1aa136393ebeb6
+  GoogleUtilities: f8de7ddf8c706f58e9b405d53e38bbdaa2731e5a
+  IHProgressHUD: a01846bfbb581c761c79747c67b08387c3bdfae3
+  ImageSlideshow: 4694d7d699a1549582e7cc631fb392d8f91630f3
+  JWTDecode: 4bd4da0cdf0f8154fd467fa48499f34ec057fb88
+  lottie-ios: 32bf84389337d86fbc8b12266e88452e0abf1dee
+  MarqueeLabel: f762aa681ae201f66c1d511858b171f75d83013a
+  MaterialComponents: 4b31f682e9c6e8ccbf4f85b479556aa8bd23ffe9
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  MOLH: 79723d6938aff0ac02aebe4d89cc96b73f46fa32
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  NBBottomSheet: aa7a52809b2d7b193f733247b8ce391a59904372
+  NotificationBannerSwift: 713e20f21b6105f4a36a00e5d9fa414a930d3d8e
+  Pageboy: 3794c578aae5fcce06e90b3ed4a0ad6b807d75bb
+  PagingTableView: ba7869ff22f7cf3f8b2190b0314688d2cb0e46c4
+  PMAlertController: 5fad2da8b9eb687134ed50c3462fed12c3afe976
+  PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
+  PullableSheet: fbe75b796cb3ca31808fffc3e63418dc7d4c57e2
+  Realm: 31dc40934081ef740f60feedc46d88473cbfeb40
+  RealmSwift: b5199e9a41f67b99f51acf6874a6166f5fbe93d1
+  ScrollingStackContainer: 89ff12217eaa8215c0d1bb2f29b807d0ebaa3918
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  SelectionDialog: 9f4b63f2fc004f2b834a9980870a698f98516897
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SRCountdownTimer: 9c92e444b5403c92f01dd6610299b8c634bc8562
+  SwiftRater: 462ecaa145b0286f130a56b9571d2a2621a10eff
+  SwiftyGif: b85c6b33a9411859d9e1db998b6a8214aea942df
+  "UIImageView+Extension": bc26c60a9c8cd6fb515ae1e37377a6f0988e76d8
+
+PODFILE CHECKSUM: d2a310f9107f5ec5d2f60fa4c5a8e241b84d53c7
+
+COCOAPODS: 1.8.4

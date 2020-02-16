@@ -1,0 +1,6 @@
+framework module ScrollingStackContainer {
+  umbrella header "ScrollingStackContainer-umbrella.h"
+
+  export *
+  module * { export * }
+}
